@@ -619,3 +619,9 @@ footer {
 footer p {
     margin: 10px 0; /* Adjust spacing around the text */
 }
+
+.res{
+    font-size: small;
+    font-weight: 300;
+    color: #4CAF50;
+}
