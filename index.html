@@ -195,19 +195,46 @@
     </section>
 
     <section id="contact-section">
-        <h1 class="heading">contact</h1>
+        <h1 class="heading">Contact</h1>
         <div class="form">
-            <input type="text" placeholder="name">
-            <input type="email" placeholder="email">
-            <input type="subject" placeholder="subject">
-            <textarea placeholder="message"></textarea>
-            <button class="contact-btn">contact</button>
-            
+            <input id="name" type="text" placeholder="Name">
+            <input id="email" type="email" placeholder="Email">
+            <input id="subject" type="text" placeholder="Subject">
+            <textarea id="message" placeholder="Message"></textarea>
+            <button id="contact-btn" class="contact-btn">Contact</button>
+            <a href="mailto:calebkiptoo9090@gmail.com" class="email">
+                <img src="/images/mail_10506217.png" alt="Mail Icon">
+                Send me an email
+            </a>
+        </div>
+        <div id="buy-me-coffee-section">
+            <a href="https://https://www.paypal.com/paypalme/yourusername" class="buy-coffee">
+                <img src="/images/coffee-cup_1047462.png" alt="Coffee Icon">
+                Buy me a coffee
+            </a>
         </div>
     </section>
 
-    <a href="mailto:calebkiptoo9090@gmail.com">Send me an email</a>
+    <script>
+        document.getElementById('contact-btn').addEventListener('click', function() {
+            var name = document.getElementById('name').value.trim();
+            var email = document.getElementById('email').value.trim();
+            var subject = document.getElementById('subject').value.trim();
+            var message = document.getElementById('message').value.trim();
 
+            if (name === '' || email === '' || subject === '' || message === '') {
+                alert('Please fill out all fields.');
+                return;
+            }
+
+            document.getElementById('confirmation-message').style.display = 'block';
+
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('subject').value = '';
+            document.getElementById('message').value = '';
+        });
+    </script>
 
 
     </main>
