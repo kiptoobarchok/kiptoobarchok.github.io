@@ -605,7 +605,7 @@ border: 150px solid #000;
 
 .contact-btn:hover {
     background-color: #45a049;
-    opacity: 60%;
+    opacity: 200%;
 }
 
 .email {
@@ -629,7 +629,7 @@ border: 150px solid #000;
 
 .email:hover {
     background-color: #45a049;
-    opacity: 60%;
+    opacity: 250%;
 }
 
 #buy-me-coffee-section {
@@ -734,4 +734,16 @@ footer p {
 .whatsapp-link img {
     width: 20px;
     height: 20px;
+}
+
+.profile{
+    font-size: .2em;
+    font-family: 'Arial', sans-serif;
+    color: #333; 
+    line-height: 1.5; 
+    max-width: 600px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
