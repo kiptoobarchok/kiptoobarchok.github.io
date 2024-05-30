@@ -761,8 +761,8 @@ footer p {
         height: 350px;
     }
     .header-img{
-        width: 350px;
-        height: 350px;
+        width: 100px;
+        height: 100px;
     }
 
     .about-container{
@@ -867,8 +867,9 @@ footer p {
         height: 200px;
     }
     .header-img{
-        width: 300px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 5px;
     }
 
     .card-container{
