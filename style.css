@@ -748,3 +748,134 @@ footer p {
     border-radius: 5px; /* Rounded corners for a modern look */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 1060px){
+    html{
+        font-size: 15px;
+    }
+    .header-heading .brand-name{
+        font-size: 4rem;
+    }
+    .circle{
+        width: 350px;
+        height: 350px;
+    }
+    .header-img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .info{
+        width: 100%;
+    }
+    .img-container{
+        width: 320px;
+    }
+    .card-container{
+        margin-top: 20px;
+    }
+    .card{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 150px;
+    }
+
+    .card-container .card::before{
+        display: none;
+    }
+
+    .card-container .card::after{
+        right: 50% !important;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 750px){
+    .toggle-btn{
+        position: absolute;
+        right: 10vw;
+        width: 50px;
+        height: 40px;
+        border: 1px solid snow;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .toggle-btn span{
+        width: 60%;
+        height: 1px;
+        background-color: #b4b4b4;
+    }
+    .toggle-btn.active span:nth-child(2){
+        display: none;
+    }
+    .toggle-btn.active span:nth-child(1){
+        position: absolute;
+        transform: rotate(45deg);
+    }
+    .toggle-btn.active span:nth-child(3){
+        position: absolute;
+        transform: rotate(-45deg);
+    }
+    .nav-links-container.active{
+        display: block;
+    }
+    .nav-links-container{
+        position: absolute;
+        top: 80%;
+        flex-direction: column;
+        width: calc(100% + 20vw);
+        left: 0;
+        background: #333;
+        display: none;
+    }
+    .nav-link{
+        height: 60px;
+        width: 100%;
+        
+    }
+    .links{
+        display: block;
+        padding: 20px 10vw;
+
+    }
+    .links:hover, .links.active{
+    background: #000;
+    border-radius: 10px;
+    }
+    .header{
+        height: auto;
+        padding: 100px 10vw;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .content{
+        text-align: center;
+    }
+    .circle{
+        width: 200px;
+        height: 200px;
+    }
+    .header-img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .card-container{
+        padding: 0;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
