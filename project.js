@@ -12,8 +12,8 @@ let projectData = [
         image: '/images/air-bnb_731980.png',
         name: 'AirBnB Clone',
         detail: 'A clone of the Airbnb website',
-        github: '#',
-        tags: '#python, #fullstack, #html/css, #html, #sql #' 
+        github: 'https://github.com/kiptoobarchok/AirBnB_clone',
+        tags: '#python, #fullstack, #html/css, #html, #sql ,#databases , #APIs' 
     },
     {
         image: '/images/car_5723765.png',
@@ -34,7 +34,7 @@ let projectData = [
         name: 'project 5: To Do list App',
         detail: 'a remimder app with additional features(eisenhower matrix)',
         github: '#',
-        tags: '#javascript, #fullstack, #css, #databases'
+        tags: '#javascript, #fullstack, #css, #databases, #APIs'
     },
 
     {
