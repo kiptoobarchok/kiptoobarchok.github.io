@@ -11,7 +11,7 @@ let projectData = [
     {
         image: '/images/air-bnb_731980.png',
         name: 'AirBnB Clone',
-        detail: 'A clone of the Airbnb website composed by : \n - A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging). \n- A website (the front-end) that shows the final product to everybody: static and dynamic. \n- A database or files that store data (data = objects) \n- An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them ',
+        detail: 'A clone of the Airbnb website composed by : \n - A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging). \n- A website (the front-end) that shows the final product to everybody: static and dynamic. \n- A database or files that store data (data = objects) \n- An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them) ',
         github: 'https://github.com/kiptoobarchok/AirBnB_clone',
         tags: '#python, #fullstack, #html/css, #html, #sql ,#databases , #apis' 
     },
