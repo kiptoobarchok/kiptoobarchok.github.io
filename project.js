@@ -5,7 +5,7 @@ let projectData = [
         image: '/images/java-script_721671.png',
         name: 'project one: AuraTunes',
         detail: 'AuraTunes: Music is now more than just background noise in the digital era; it\'s a tool for self-discovery, an escape, and a conduit to emotions. Music has the capacity to significantly influence our lives. That\'s whyI\'ve developed an audio app/website that offers something special, combining a mystical aura with connecting sound and a variety of life aspects.',
-        github: '#',
+        github: '',
         tags: '#javascript, #fullstack, #html/css'
     },
     {
